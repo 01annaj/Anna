@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <!-- Head har teknisk information för webbläsaren -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LikeToSmile</title>
+        <meta name="description" content="Detta är en övningssida.">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+        <link rel="stylesheet" href="CSS/main.css">
+        <!-- Använda separata css-filer för olika enheter -->
+        <link rel="stylesheet" media="(min-width:768px)" href="css/tablet.css">
+        <link rel="stylesheet" media="(min-width:960px)" href="css/laptop.css">
+        <link rel="stylesheet" media="(min-width:1200px)" href="css/desktop.css">
+        <script>
+            // här kan man lägga javascript
+        </script>
+    </head>
+    <body>
+        <!-- Här placeras allt innehåll som webbläsaren ska visa/rendera -->
+        <a href="#to-content"><span class="sr-only">Hoppa till innehållet</span></a>
+        <div id="top-of-page" class="site">
+            
+            <header class="site-header">
+                <div class="container">
+                    <!-- I sidhuvud lägger vi logga och navigering -->
+                    <div class="brand">
+                        <img class="logo" src="https://cdn.pixabay.com/photo/2015/11/21/15/29/photo-1055066__340.jpg" alt="">
+                    </div>
+                    <a class="btn toggle-menu" href="#"><i class="fas fa-bars fa-fw"></i></a>
+                    <nav class="site-navigation">
+                        <a href="index.html">Hem</a>
+                        <a href="tjanst.html">Tjänster</a>
+                        <a href="kontakt.html">Kontakt</a>
+                        <a href="om-mig.html">Om mig</a>
+                        <a href="ladningssida-kampanj.html">Kampanj</a>
+                    </nav>
+                </div>
+            </header>
+            <!-- Vanlig placering på navigering beroende på design -->
+            <!-- 
+            <nav class="site-navigation">
+                <a href="index.html">Startsida</a>
+                <a href="tjanster.html">Våra tjänster</a>
+                <a href="om-oss.html">Om företaget</a>
+                <a href="kontakt.html">Kontakta oss</a>
+            </nav> 
+            -->
+
+            <main class="site-content" id="to-content">
+
+                <div class="container">
+                    <article id="post-1" class="post post-1">
+                        <h1 class="post-title">Rubrik</h1>
+                        <div class="post-content">
+                            <p><img class="w25 alignright" src="images/women.jpg" alt=""> ipsum dolor, sit amet consectetur adipisicing elit. Animi debitis fugit eligendi quas maxime quod temporibus porro possimus alias sed aliquam numquam molestias voluptas suscipit reiciendis tenetur excepturi eveniet optio harum quia hic voluptatum, nesciunt deleniti? Asperiores ea maiores maxime nesciunt? Iste libero ut temporibus dicta ea obcaecati sint et?</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi debitis fugit eligendi quas maxime quod temporibus porro possimus alias sed aliquam numquam molestias voluptas suscipit reiciendis tenetur excepturi eveniet optio harum quia hic voluptatum, nesciunt deleniti? Asperiores ea maiores maxime nesciunt? Iste libero ut temporibus dicta ea obcaecati sint et?</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi debitis fugit eligendi quas maxime quod temporibus porro possimus alias sed aliquam numquam molestias voluptas suscipit reiciendis tenetur excepturi eveniet optio harum quia hic voluptatum, nesciunt deleniti? Asperiores ea maiores maxime nesciunt? Iste libero ut temporibus dicta ea obcaecati sint et?</p>
+                        </div>
+                    </article>
+                    <article id="post-2" class="post"></article>
+                    <article id="post-3" class="post"></article>
+                </div>
+                <!-- I main lägger vi vårt innehåll -->
+            </main>
+
+            <footer class="site-footer">
+                <!-- I sidfot lägger vi ex. kontaktuppgifter, extra menyer m.m. -->
+                <div class="container">
+                    <div class="row">                    
+                        <div class="column w50 contact">
+                            <img class="logo" src="images/logo.png" alt="">
+                            <address>
+                                <h3>Företaget AB</h3>
+                                <p>Gatan 1<br>
+                                123 45 Storstan</p>
+                            </address>
+                            <div class="phone"><i class="fas fa-phone fa-fw"></i><a href="tel:+46123456789">+46 1234 567 89</a></div>
+                            <div class="email"><i class="fas fa-envelope fa-fw"></i><a href="mailto:info@foretaget.se">info@foretaget.se</a></div>
+                        </div>
+
+                        <div class="column w25 links">
+                            <h3>Snabblänkar</h3>
+                            <ul>
+                                <li><a href="index.html">Startsida</a></li>
+                                <li><a href="tjanster.html">Våra tjänster</a></li>
+                                <li><a href="om-oss.html">Om företaget</a></li>
+                                <li><a href="kontakt.html">Kontakta oss</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="column w25 social-links">
+                            <h3>Följ oss</h3>
+                            <ul>
+                                <li><a href="https://facebook.com"><i class="fab fa-facebook fa-fw "></i><span class="sr-only">Facebook</span></a></li>
+                                <li><a href="https://instagram.com"><i class="fab fa-instagram fa-fw"></i><span class="sr-only">Instagram</span></a></li>                        
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </footer>
+
+        </div>
+
+        <!-- Hämta jQuery från CDN https://cdnjs.com/libraries/jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script>
+              // Här kan man lägga javascript
+            (function($){
+                $('.toggle-menu').click( function() {
+                    $('.site-navigation').toggleClass('show');
+                });
+            })(jQuery);
+          
+        </script>
+    </body>

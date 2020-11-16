@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+
+
+    <header class="site-header">
+        <div class="container">
+            <!-- I sidhuvud lägger vi logga och navigering -->
+            <div class="brand">
+                <img class="logo" src="https://cdn.pixabay.com/photo/2015/11/21/15/29/photo-1055066__340.jpg" alt="">
+            </div>
+            <a class="btn toggle-menu" href="#"><i class="fas fa-bars fa-fw"></i></a>
+            <nav class="site-navigation">
+                <a href="index.html">Hem</a>
+                <a href="tjanst.html">Tjänster</a>
+                <a href="kontakt.html">Kontakt</a>
+                <a href="om-mig.html">Om mig</a>
+                <a href="ladningssida-kampanj.html">Kampanj</a>
+            </nav>
+        </div>
+    
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">Förnamn</label>
+          <input type="text" id="fname" name="firstname" placeholder="ditt namn...">
+      
+          <label for="lname">Efternamn</label>
+          <input type="text" id="lname" name="lastname" placeholder="ditt efternamn...">
+      
+          <label for="country">Land</label>
+          <select id="country" name="country">
+            <option value="australia">Sverige</option>
+            <option value="canada">Norge</option>
+            <option value="usa">Finlad</option>
+          </select>
+      
+          <label for="subject">Meddelande</label>
+          <textarea id="subject" name="subject" placeholder="Jag funderar..." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+
+      <footer class="site-footer">
+        <!-- I sidfot lägger vi ex. kontaktuppgifter, extra menyer m.m. -->
+        <div class="container">
+            <div class="row">                    
+                <div class="column w50 contact">
+                    <img class="logo" src="images/logo.png" alt="">
+                    <address>
+                        <h3>Företaget AB</h3>
+                        <p>Gatan 1<br>
+                        123 45 Storstan</p>
+                    </address>
+                    <div class="phone"><i class="fas fa-phone fa-fw"></i><a href="tel:+46123456789">+46 1234 567 89</a></div>
+                    <div class="email"><i class="fas fa-envelope fa-fw"></i><a href="mailto:info@foretaget.se">info@foretaget.se</a></div>
+                </div>
+
+                <div class="column w25 links">
+                    <h3>Snabblänkar</h3>
+                    <ul>
+                        <li><a href="index.html">Startsida</a></li>
+                        <li><a href="tjanster.html">Våra tjänster</a></li>
+                        <li><a href="om-oss.html">Om företaget</a></li>
+                        <li><a href="kontakt.html">Kontakta oss</a></li>
+                    </ul>
+                </div>
+
+                <div class="column w25 social-links">
+                    <h3>Följ oss</h3>
+                    <ul>
+                        <li><a href="https://facebook.com"><i class="fab fa-facebook fa-fw "></i><span class="sr-only">Facebook</span></a></li>
+                        <li><a href="https://instagram.com"><i class="fab fa-instagram fa-fw"></i><span class="sr-only">Instagram</span></a></li>                        
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
